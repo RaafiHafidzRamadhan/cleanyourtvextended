@@ -1,0 +1,29 @@
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Keystore dan file tanda tangan
+*.jks
+*.keystore
+*.p12
+
+# Artefak uji lokal dan data pribadi
+qa/
+shots/
+backup/
+work/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db

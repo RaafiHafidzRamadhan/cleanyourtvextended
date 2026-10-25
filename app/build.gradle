@@ -1,0 +1,33 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.raafi.cyberhome'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.raafi.cyberhome'
+        minSdk 26
+        targetSdk 34
+        versionCode 4
+        versionName '2.2'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'org.nanohttpd:nanohttpd:2.3.1'
+    implementation 'dev.mobile:dadb:2.0.0'
+}

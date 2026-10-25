@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_dark">#070B12</color>
+    <color name="text_primary">#EAF1FA</color>
+    <color name="text_secondary">#8B9AB0</color>
+    <color name="accent">#4C8DFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="divider">#1B2838</color>
+    <color name="dream_white">#F7FAFF</color>
+    <color name="dream_text">#D6E6FF</color>
+    <color name="dream_dim">#8FB4DF</color>
+    <color name="dream_fill">#0FFFFFFF</color>
+    <color name="dream_stroke">#26FFFFFF</color>
+</resources>
